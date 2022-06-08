@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+.card {
+    display: flex;
+    margin-top: 10px;
+    border-radius: 50px;
+    border: 1px solid rgb(97 213 228);
+    background: #fffb52;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    align-items: center;
+}
+.bg-info {
+    background-color: #b6b6b6 !important;
+}
+
+.card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    border-radius: 0px 74px 0px 79px;
+    background-color: #004969;
+    color: white;
+    
+    border-bottom: 3px solid rgb(255 255 255);
+}
+
+.boton{
+    border-radius: 50px;
+    border-color: #ebe7f0;
+   background-color: #3d8892;
+   color: white;
+}
+
+.bg-light {
+    margin-left:  36px;
+    background-color: #00bcd49e  !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #6d6b6f;
+    border-color: #ffffff;
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.tituloTar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #019cdc;
+}
+
+.descriptionTar{
+    
+    border-radius: 10px;
+    border: 1px solid #019cdc;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 287px 287px 287px 287px 287px;
+    grid-template-rows: 287px;
+}
